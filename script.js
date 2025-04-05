@@ -22,6 +22,6 @@ console.log (typeof idade); //decobrir o que é a variavel//
 let n1 = 10;
 let n2 = 10;
 let soma = n1 + n2;
-console.log(soma);
+console.log(soma)
 
 
