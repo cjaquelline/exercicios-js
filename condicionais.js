@@ -83,14 +83,35 @@ function exercicio05() {
 
 function intermediario01() {
 
-    debugger;
-
-    let n1 = prompt ("Digite um numero:");
-    let n2 = prompt ("Digite um numero:");
+    let n1 = Number(prompt("Digite um numero:"));
+    let n2 = Number(prompt("Digite um numero:"));
 
     let numeros = n1 + n2;
-    alert (numeros);
-  
+    alert(numeros);
+
 
 }
-intermediario01();
+
+function intermediario02() {
+
+    debugger;
+
+    let n1 = Number(prompt("Digite o primeiro número:"));
+    let n2 = Number(prompt("Digite o segundo número:"));
+    let n3 = Number(prompt("Digite o terceiro número:"));
+
+    let maior;
+
+    if (n1 >= n2 && n1 >= n3) {
+        maior = n1;
+    } else if (n2 >= n1 && n2 >= n3) {
+        maior = n2;
+    } else {
+        maior = n3;
+    }
+
+    alert("O maior número é: " + maior);
+
+
+}
+intermediario02()
