@@ -1,0 +1,56 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+h1 {
+
+    display: flex;
+    font-size: 70px;
+    font-family: Helvetica;
+    margin: 20px;
+
+
+}
+
+h2 {
+    display: flex;
+    font-size: 40px;
+    font-family: Helvetica;
+    margin: 20px;
+}
+
+h3 {
+    display: flex;
+    font-size: 20px;
+    font-family: Helvetica;
+    margin: 20px;
+
+}
+
+p {
+    display: flex;
+    font-size: 15px;
+    font-family: Helvetica;
+    margin: 20px;
+
+}
+
+button {
+    display: flex;
+    border: none;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 12px;
+
+    font-size: 15px;
+    font-family: Helvetica;
+    margin: 20px;
+    color: white;
+
+
+
+}

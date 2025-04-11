@@ -9,6 +9,7 @@ function exercicio01() {
         console.log("Você é menor de idade.");
 
     }
+    gerarLog("Exercício de condicional 01 executado às " + new Date().toLocaleDateString());
 }
 
 function exercicio04() {
@@ -28,13 +29,14 @@ function exercicio04() {
 
         }
     }
+    gerarLog("Exercício de condicional 04 executado às " + new Date().toLocaleDateString());
 
 }
 
 function exercicio06() {
 
 
-    let numero = prompt("Digite um numero");
+    let numero = prompt("Digite um numero:");
 
     if (numero % 2 === 0) {
         console.log("par");
@@ -42,17 +44,20 @@ function exercicio06() {
         console.log("impar");
     }
 
+    gerarLog("Exercício de condicional 06 executado às " + new Date().toLocaleDateString());
 }
 
 function exercicio03() {
 
-    let nota = prompt("Digite a nota do aluno");
+    let nota = prompt("Digite a nota do aluno:");
 
     if (nota >= 60) {
         console.log("Aprovado");
     } else {
         console.log("Reprovado");
+
     }
+    gerarLog ("Exercício de condicional 03 executado às " + new Date() . toLocaleDateString());
 }
 
 function exercicio02() {
@@ -64,6 +69,7 @@ function exercicio02() {
     } else {
         console.log("Negativo");
     }
+    gerarLog ("Exercício de condicional 02 executado às " + new Date() . toLocaleDateString());
 
 }
 
@@ -77,11 +83,12 @@ function exercicio05() {
     } if (numero >= 18) {
         alert("Você é adulto");
     }
+    gerarLog ("Exercício de condicional 05 executado às " + new Date() . toLocaleDateString());
 
 }
 
 
-function intermediario01() {
+function intermediarioCondicional01() {
 
     let n1 = Number(prompt("Digite um numero:"));
     let n2 = Number(prompt("Digite um numero:"));
@@ -89,10 +96,11 @@ function intermediario01() {
     let numeros = n1 + n2;
     alert(numeros);
 
+    gerarLog ("Exercício de condicional 06 executado às " + new Date() . toLocaleDateString());
 
 }
 
-function intermediario02() {
+function intermediarioCondicional02() {
 
     debugger;
 
@@ -112,6 +120,19 @@ function intermediario02() {
 
     alert("O maior número é: " + maior);
 
+    gerarLog ("Exercício de condicional 07 executado às " + new Date() . toLocaleDateString());
+
 
 }
-intermediario02()
+
+function gerarLog(textoDoLog) {
+    let logsContainer = document.querySelector(".logs-container");
+
+    let paragraph = document.createElement("p");
+
+    paragraph.innerHTML = textoDoLog;
+
+    logsContainer.appendChild(paragraph);
+
+
+}
