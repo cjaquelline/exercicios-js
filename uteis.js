@@ -71,8 +71,7 @@ function FindBasico03 () {
     ];
 
     let nomeFiltrado = nomes.find (nome => nome.id == 2)
-    console.log(nomeFiltrado);
-
+        
 }
 
 function MapBasico01 () {
@@ -82,8 +81,7 @@ function MapBasico01 () {
 
     console.log (numerosDobrados);
 }
-
-function MapBasico02 () {
+ function MapBasico02 () {
 
     let palavras = [ "Oi", "Siim", "Não"];
 
@@ -93,5 +91,9 @@ function MapBasico02 () {
  }
  
  function MapBasico03 () {
-    let colaborador
+    let colaborador = ["jaquelline", "bruno", "joaquim"];
+
+    let nomeMaisculo = colaborador.map (primeiraLetra => primeiraLetra > );
+    console.log (nomeMaisculo);
  }
+ MapBasico03 ()
